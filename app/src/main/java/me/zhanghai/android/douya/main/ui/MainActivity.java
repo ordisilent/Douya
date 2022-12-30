@@ -100,8 +100,7 @@ public class MainActivity extends AppCompatActivity implements NavigationFragmen
         } else {
             mMainFragment = FragmentUtils.findById(this, R.id.container);
             mNotificationListFragment = FragmentUtils.findById(this, R.id.notification_list_drawer);
-            mDoumailUnreadCountFragment = FragmentUtils.findByTag(this,
-                    FRAGMENT_TAG_DOUMAIL_UNREAD_COUNT);
+            mDoumailUnreadCountFragment = FragmentUtils.findByTag(this,FRAGMENT_TAG_DOUMAIL_UNREAD_COUNT);
         }
     }
 
